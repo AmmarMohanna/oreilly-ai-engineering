@@ -95,9 +95,9 @@ All course materials are designed to run in **Google Colab**. Simply click on th
 
 - 📖 [Course on O'Reilly Learning](https://learning.oreilly.com/live-events/ai-engineering-bootcamp/0642572259280/)
 - 📚 Recommended Reading:
-  - *AI Engineering* by Chip Huyen
-  - *Designing Machine Learning Systems* by Chip Huyen
-  - *LLMOps* by Chip Huyen
+  - *AI Engineering* by Chip Huyen - [Read on O'Reilly](https://learning.oreilly.com/library/view/ai-engineering/9781098166298/)
+  - *Designing Machine Learning Systems* by Chip Huyen - [Read on O'Reilly](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+  - *LLMOps* by Abi Aryan - [Read on O'Reilly](https://learning.oreilly.com/library/view/llmops/9781098154196/)
 
 ---
 
