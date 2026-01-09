@@ -13,6 +13,15 @@
 
 ---
 
+## 📖 Book Reference
+
+This bootcamp is based on the book **AI Engineering** by Chip Huyen. For additional resources, examples, and supporting materials:
+
+- 📚 [Official Book GitHub Repository](https://github.com/chiphuyen/aie-book)
+- 📖 [Read AI Engineering on O'Reilly](https://learning.oreilly.com/library/view/ai-engineering/9781098166298/)
+
+---
+
 ## 📚 Course Overview
 
 The AI engineering field is moving beyond model-centric ML to a product-centric approach that brings foundation models into production. This two-day, hands-on bootcamp distills the essentials of building applications with foundation models, following a "production first" philosophy: start simple, optimize instructions and context before touching the model, and always tie model behavior to user experience and product value.
