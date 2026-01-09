@@ -47,6 +47,13 @@ Ammar is a seasoned AI expert with extensive experience spanning academia, indus
 
 ---
 
+## 🎓 Other Courses by Ammar Mohanna
+
+- **MLOps/LLMOps Bootcamp** (Live Course) - [View Course](https://learning.oreilly.com/live-events/mlopsllmops-bootcamp/0642572182861/)
+- **Testing AI Systems: Crafting Trust, Quality, and Performance** (On-Demand Course) - [View Course](https://learning.oreilly.com/course/testing-ai-systems/0642572060008/)
+
+---
+
 ## 📅 Course Schedule
 
 ### Day 1: AI Engineering Fundamentals
@@ -66,6 +73,8 @@ Ammar is a seasoned AI expert with extensive experience spanning academia, indus
 - Evaluation pipeline design and observability
 - Prompt engineering principles and security
 
+📊 [Day 1 Slide Deck](https://drive.google.com/file/d/1qjbclEOO8h4piYVQKCO7y83KSYpJtQKK/view?usp=sharing)
+
 ---
 
 ### Day 2: Advanced Techniques and Full Stack Development
@@ -84,6 +93,8 @@ Ammar is a seasoned AI expert with extensive experience spanning academia, indus
 - Data engineering for AI applications
 - Inference optimization and cost reduction
 - End-to-end application development
+
+📊 [Day 2 Slide Deck](https://drive.google.com/file/d/1nSk8Dv7pBHMpab2NQGvmcjIxP9DSbuiD/view?usp=sharing)
 
 ---
 
