@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![O'Reilly Logo](https://www.oreilly.com/static/favicon.ico)
+<img src="assets/images/O'Reilly_Logo.png" alt="O'Reilly Logo" width="300">
 
 **From theory to production with evaluations, prompting, RAG, and agents**
 
