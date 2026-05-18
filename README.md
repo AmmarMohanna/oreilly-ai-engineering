@@ -47,18 +47,21 @@ The AI engineering field is moving beyond model-centric ML to a product-centric 
 ## 👨‍🏫 Instructor
 
 **Ammar Mohanna**  
-AI Expert, Educator, and Entrepreneur
+AI Consulting, Delivery, and Teaching
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/ammarmohanna/)
 - 🌐 [Personal Website](https://www.ammarmohanna.ai)
 
-Ammar is a seasoned AI expert with extensive experience spanning academia, industry consulting, and technology innovation. He teaches advanced courses in AI and machine learning at the American University of Lebanon and holds a PhD in edge artificial intelligence from the University of Genoa, Italy.
+Ammar works across consulting and academia as AI Engineering Lead at EDT&Partners, Lecturer at the American University of Beirut, and Expert Contributor at O'Reilly. He helps companies, universities, and investors scope, evaluate, and build AI systems that are useful, measurable, and technically defensible.
+
+His work covers technical scoping, architecture, evaluation design, agentic workflows, MLOps/LLMOps, production reliability, and independent review. He holds a PhD in edge artificial intelligence from the University of Genoa, Italy.
 
 ---
 
 ## 🎓 Other Courses by Ammar Mohanna
 
 - **MLOps/LLMOps Bootcamp** (Live Course) - [View Course](https://learning.oreilly.com/live-events/mlopsllmops-bootcamp/0642572182861/)
+- **Hand-On Agentic GraphRAG** (Live Course) - [View Course](https://learning.oreilly.com/live-events/-/0642572339340/)
 - **Testing AI Systems: Crafting Trust, Quality, and Performance** (On-Demand Course) - [View Course](https://learning.oreilly.com/course/testing-ai-systems/0642572060008/)
 
 ---
@@ -135,4 +138,3 @@ This course follows a **"production first"** approach:
 ## 🤝 Contributing
 
 This repository contains course materials for the O'Reilly AI Engineering Bootcamp. For questions or feedback, please reach out through the course platform or connect with the instructor on LinkedIn.
-
