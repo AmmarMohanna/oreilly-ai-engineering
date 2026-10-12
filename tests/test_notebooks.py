@@ -138,6 +138,28 @@ def test_finetuning_demo_is_bounded():
     keywords = {k.arg: k.value for k in call.keywords}
     assert 'max_steps' in keywords and 0 < ast.literal_eval(keywords['max_steps']) <= 100
 
+@pytest.mark.parametrize('generated', ['positive', '', 'positive\nAnswer:'])
+def test_finetuning_decodes_only_completion_and_rejects_invalid_labels(generated):
+    import torch
+    class Batch(dict):
+        def to(self, device): return self
+        def __getattr__(self, name): return self[name]
+    class Tokenizer:
+        def __call__(self, *args, **kw):
+            return Batch(input_ids=torch.tensor([[11,12]]))
+        def decode(self, ids, **kw):
+            assert list(map(int, ids)) == [101]
+            return generated
+    model = NS(device='cpu', generate=lambda **kw: torch.tensor([[11,12,101]]))
+    ns = functions(7, 'def generate_sentiment', dict(
+        torch=torch, tokenizer=Tokenizer(), sentiment_prompt=lambda text:'prompt',
+        LABELS={'negative', 'neutral', 'positive'}))
+    if generated == 'positive':
+        assert ns['generate_sentiment'](model, 'A lovely day.') == 'positive'
+    else:
+        with pytest.raises(ValueError, match='Expected a sentiment label'):
+            ns['generate_sentiment'](model, 'A lovely day.')
+
 def test_synthetic_empty_generation_still_cleans():
     client = NS(models=NS(generate_content=lambda **kw: NS(candidates=[])))
     ns = dict(client=client, pd=pd, model_name='test-model')
