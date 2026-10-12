@@ -122,6 +122,8 @@ Notebook 10 includes sample documents when no PDFs have been uploaded. Its Gradi
 
 ### Notebook validation
 
+[Latest Colab validation record: all 10 notebooks, 12 October 2026](VALIDATION.md).
+
 Component regression checks (no API calls or model downloads):
 
 ```bash
