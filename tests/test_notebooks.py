@@ -53,6 +53,42 @@ def test_top_p_cell_uses_its_declared_temperature():
     exec(source(2, "top_ps ="), ns)
     assert [x['temperature'] for x in calls] == [0.5, 0.5, 0.5]
 
+@pytest.mark.parametrize('raw', ['not json', '{}', '{"relevance":"five"}',
+                               '{"relevance":6,"justification":"bad"}',
+                               '{"relevance":true,"justification":"bad"}', None])
+def test_judge_parser_rejects_invalid_scores(raw):
+    import re
+    ns = functions(3, 'def parse_judge_result', dict(re=re,json=json))
+    assert ns['parse_judge_result'](raw)['relevance'] is None
+
+def test_judge_parser_accepts_a_valid_fenced_result():
+    import re
+    ns = functions(3, 'def parse_judge_result', dict(re=re,json=json))
+    assert ns['parse_judge_result']('```json\n{"relevance":4,"justification":"Mostly accurate"}\n```')['relevance'] == 4
+
+def test_judge_comparison_handles_missing_and_constant_scores():
+    ns = dict(human_annotations=[{'relevance':5},{'relevance':4},{'relevance':5}],
+              parsed_results=[{'relevance':5},{'relevance':None},{'relevance':5}],
+              generated_summaries=['a','b','c'],reference_summaries=['a','b','c'])
+    exec(source(3, '# Human-annotated relevance scores'), ns)
+    assert list(ns['df_relevance']['Summary_ID']) == [1,3]
+    assert np.isnan(ns['pearson_corr'])
+
+def test_comparison_plot_keeps_ids_and_hides_zero_pie_slices(monkeypatch):
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    monkeypatch.setattr(plt, 'show', lambda: None)
+    ns = dict(human_annotations=[{'relevance':5},{'relevance':4},{'relevance':5}],
+              parsed_results=[{'relevance':5},{'relevance':None},{'relevance':5}],
+              generated_summaries=['a','b','c'],reference_summaries=['a','b','c'])
+    exec(source(3, '# Human-annotated relevance scores'), ns)
+    exec(source(3, '# Create comprehensive visualizations'), ns)
+    assert [t.get_text() for t in ns['axes'][0,1].get_xticklabels()] == ['S1','S3']
+    assert len(ns['wedges']) == 1
+    assert 'undefined' in ns['axes'][0,0].get_title()
+    plt.close(ns['fig'])
+
 def test_guardrail_detects_the_notebooks_own_attack():
     ns = {}
     exec(source(5, 'INJECTION_PATTERNS ='), ns)

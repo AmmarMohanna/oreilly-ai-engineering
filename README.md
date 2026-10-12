@@ -72,11 +72,11 @@ His work covers technical scoping, architecture, evaluation design, agentic work
 
 | Session | Topic | Colab Notebook |
 |---------|-------|----------------|
-| 1 | From Model Training to Model Steering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J4oLUIzeqH8REnBI6DNYTJxLBh5KUvmQ?usp=sharing) |
-| 2 | Exploring LLM Behavior with Configurations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1C6uWRnfTkC2X1H4LydBO22nu9I3RCHk9?usp=sharing) |
-| 3 | Evaluating AI-Generated Text: Automatic Metrics vs. Human Judgments | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OHKjwQTy0jrRdsPWbkjnRVTalvY-7tPV?usp=sharing) |
-| 4 | LLM Application Evaluation Pipeline: Qwen Translation Model | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_Gy9RBYjmQ-nkfr-H8K9MjFO5eRLR9N6?usp=sharing) |
-| 5 | Safe Prompt Engineering & Guardrails | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1v2jBwykIx9fSkTv2mN3y3BE1ADDqEjKr?usp=sharing) |
+| 1 | From Model Training to Model Steering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%201/1.From%20Model%20Training%20to%20Model%20Steering.ipynb) |
+| 2 | Exploring LLM Behavior with Configurations | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%201/2.Exploring%20LLM%20Behavior%20with%20Configurations.ipynb) |
+| 3 | Evaluating AI-Generated Text: Automatic Metrics vs. Human Judgments | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%201/3.Evaluating%20AI-Generated%20Text_%20Automatic%20Metrics%20vs.%20Human%20Judgments.ipynb) |
+| 4 | LLM Application Evaluation Pipeline: Qwen Translation Model | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%201/4.LLM%20Application%20Evaluation%20Pipeline_%20Qwen%20Translation%20Model.ipynb) |
+| 5 | Safe Prompt Engineering & Guardrails | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%201/5.Safe%20Prompt%20Engineering%20%26%20Guardrails%20.ipynb) |
 
 **Day 1 Topics:**
 - Introduction to AI engineering and foundation model applications
@@ -93,11 +93,11 @@ His work covers technical scoping, architecture, evaluation design, agentic work
 
 | Session | Topic | Colab Notebook |
 |---------|-------|----------------|
-| 6 | Hands-On: RAG & Agents with Gemini | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10KP_uhMNOhZfv7w2XKyIRZPzlPhyuHoT?usp=sharing) |
-| 7 | Hands-on: Fine-Tuning Qwen with QLoRA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dZ1xtfZr6v9XCtqnS1Ble--iq6RFktP6?usp=sharing) |
-| 8 | Hands-on: Synthetic Dataset Creation - Topic Classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zHs2jWYfuSj2N1rDOuFvgYJYR2zt0lku?usp=sharing) |
-| 9 | Hands-on: LLM Inference Optimization with Batching and Caching | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11WBUlUe26GbiWdW5Xwh_n4IU8tMCU7Zt?usp=sharing) |
-| 10 | Hands-on: Building an End-to-End LLM Travel Assistant | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OwSsrmyRNzLkR5D6IYbD75zppE7QcErD?usp=sharing) |
+| 6 | Hands-On: RAG & Agents with Gemini | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%202/6.Hands%E2%80%91On_%20RAG%20%26%20Agents%20with%20Gemini.ipynb) |
+| 7 | Hands-on: Fine-Tuning Qwen with QLoRA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%202/7.Hands-on_%20Fine-Tuning%20Qwen%20with%20QLoRA.ipynb) |
+| 8 | Hands-on: Synthetic Dataset Creation - Topic Classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%202/8.Hands-on_%20Synthetic%20Dataset%20Creation%20-%20Topic%20Classification.ipynb) |
+| 9 | Hands-on: LLM Inference Optimization with Batching and Caching | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%202/9.Hands-on_%20LLM%20Inference%20Optimization%20with%20Batching%20and%20Caching.ipynb) |
+| 10 | Hands-on: Building an End-to-End LLM Travel Assistant | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmmarMohanna/oreilly-ai-engineering/blob/main/Day%202/10.Hands-on_%20Building%20an%20End-to-End%20LLM%20Travel%20Assistant.ipynb) |
 
 **Day 2 Topics:**
 - Context construction through RAG and agent architectures
@@ -113,6 +113,30 @@ His work covers technical scoping, architecture, evaluation design, agentic work
 ## 🚀 Getting Started
 
 All course materials are designed to run in **Google Colab**. Simply click on the "Open In Colab" badges above to launch each notebook in your browser. No local setup required!
+
+The badges open the notebooks from this repository, so GitHub fixes are also available in Colab. Use a fresh runtime and run the dependency cell first. Select a **T4 GPU** for notebooks 3, 4, 7, 9, and 10; QLoRA in notebook 7 requires CUDA.
+
+For Gemini exercises, add `GOOGLE_API_KEY` to Colab Secrets and enable notebook access. `GEMINI_API_KEY` is accepted as an alternative. Public Hugging Face datasets and models do not require an HF token. The default Gemini model is `gemini-3.5-flash-lite`; set `GEMINI_MODEL` in the environment to choose another supported model. Notebook 1 defaults to the local sentiment model and includes an optional Gemini mode.
+
+Notebook 10 includes sample documents when no PDFs have been uploaded. Its Gradio interface is constructed during **Run all**; the final cell explains how to launch it deliberately.
+
+### Notebook validation
+
+Component regression checks (no API calls or model downloads):
+
+```bash
+python -m pip install pytest nbformat ipython numpy pandas torch matplotlib seaborn scipy
+python -m pytest tests -q
+```
+
+Full execution uses a separate fresh kernel and working directory for each notebook. It retains executed notebooks, package versions, source hashes, and a JSON result summary under `validation-results/`. Provide `GOOGLE_API_KEY` in the environment and use a CUDA GPU:
+
+```bash
+python -m pip install nbformat nbclient ipykernel
+python scripts/validate_notebooks.py --gemini-branch
+```
+
+Use `--only 2 5 8` to run selected labs. A failed notebook produces a nonzero exit status. Component tests alone do not establish that API calls, model downloads, or GPU training work.
 
 ### Quick Links
 
